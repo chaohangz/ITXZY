@@ -1,0 +1,161 @@
+@charset "utf-8";
+html {
+    font-family: Microsoft YaHei UI Serif;
+    font-size: 62.5%;
+    min-width: 320px;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+.father {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+.header {
+    position: relative;
+    width: 100%;
+    background: #5fc0cd;
+}
+.close {
+    position: absolute;
+    top: 23%;
+    left: 2rem;
+}
+h2 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: normal;
+    color: white;
+    padding: 1.5rem 0;
+}
+.image {
+    position: relative;
+    width: 100%;
+    background-image: url("images/task_02.png");
+    background-size: cover;
+    padding: 13% 0;
+    overflow: hidden;
+}
+.writing {
+    float: left;
+    padding-top: 4%;
+    padding-left: 5%;
+    width: 50%;
+    color: white;
+}
+.writing p.name span {
+    padding-right: 2.5rem;
+}
+.writing p.address img {
+    padding-right: 1rem;
+}
+.writing p.address {
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+.avatar {
+    float: left;
+    width: 20%;
+    padding: 10% 0;
+    margin: 0 5%;
+    border-radius: 50%;
+    background: white url("images/task_04.png") bottom center /100% no-repeat;
+}
+
+.information .skill {
+    padding: 2rem;
+    border-bottom: 1px solid #e1e5e7;
+}
+.information .skill p {
+    padding-left: 2rem;
+    font-weight: bold;
+    border-left: 4px solid #5fc0cd;
+}
+ul {
+    list-style: none;
+}
+.information ul.list {
+    margin-left: 6rem;
+}
+.information ul.list li {
+    padding: 2rem 0;
+    border-bottom: 1px solid #e1e5e7;
+}
+.information ul.list .first_left{
+    padding-right: 2rem;
+    font-weight: bold;
+    border-right: 1px solid #e1e5e7;
+}
+.information ul.list .first_right {
+    padding-left: 1rem;
+    font-weight: bold;
+}
+.information ul.list img {
+    width: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.2rem;
+}
+.information ul.list .left {
+    padding-right: 2rem;
+    color: #999999;
+    border-right: 1px solid #e1e5e7;
+}
+.information ul.list .right {
+    padding-left: 2rem;
+}
+.information ul.list .right_red {
+    padding-left: 2rem;
+    color: red;
+}
+.information ul.list .introduction {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    font-size: 2.5rem;
+    padding-left: 1rem;
+}
+
+.footer {
+    margin: 10% 8%;
+    width: 100%;
+    overflow: hidden;
+}
+.footer button {
+    float: left;
+    width: 40%;
+    padding: 2% 0;
+    margin: 0 2%;
+    font-size: 4rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: 1px solid #5fc0cd;
+}
+.footer .message {
+    color: #5fc0cd;
+    background: white;
+}
+.footer .phone {
+    color: white;
+    background: #5fc0cd;
+}
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
