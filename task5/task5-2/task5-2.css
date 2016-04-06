@@ -1,0 +1,172 @@
+@charset "utf-8";
+html {
+    font-family: Microsoft YaHei Serif;
+    font-size: 62.5%;
+    min-width: 320px;
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+img {
+    max-width: 100%;
+}
+.father {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    font-size: 3rem;
+}
+.header {
+    position: relative;
+    overflow: hidden;
+    background: #5fc0cd;
+    padding: 1.5% 0;
+}
+.header .button {
+    text-align: center;
+    float: left;
+    width: 100%;
+}
+.header .button button {
+    font-size: 2.5rem;
+    padding: 1.5% 2%;
+    border-radius: 10%;
+    border-color: #5fc0cd;
+}
+.header .employer {
+    background: #55a8b3;
+    color: white;
+}
+.header .nurse {
+    background: white;
+    color: #55a8b3;
+    margin-left: -4%;   /*这是重点，第一次用负值*/
+}
+.header .map {
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 8%;
+}
+.header img {
+    width: 100%;
+}
+
+.main .filtrate {
+    overflow: hidden;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #e1e5e7;
+}
+.main .filtrate .order {
+    list-style: none;
+    float: left;
+    font-size: 2.3rem;
+    color: #afbac0;
+    border-right: 1px solid #e1e5e7;
+    width: 33%;
+    text-align: center;
+}
+.main .filtrate .triangle_down {
+    float: right;
+    margin-top: 4%;
+    margin-right: 5%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 12px solid #afbac0;
+}
+
+.main .list li {
+    list-style: none;
+    padding: 2rem 0;
+    border-bottom: 1px solid #e1e5e7;
+}
+.main .list p {
+    font-size: 2.5rem;
+    color: #afbac0;
+}
+.main .list img {
+    margin: 0 2%;
+    width: 3.5%;
+}
+.main .list .center {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.main .list .time {
+    color: #333333;
+    font-weight: bold;
+    padding-left: 7%;
+}
+.main .list .price {
+    float: right;
+    color: #e63b0e;
+    font-weight: bold;
+
+}
+.main .list .back {
+    float: right;
+    padding-right: 2%;
+    width: 3%;
+}
+
+.footer {
+    position: fixed;
+    width: 100%;
+    max-width: 640px;
+    bottom: 0;
+    background: #f8fafb;
+    border-top: 1px solid #e1e5e7;
+}
+.footer ul {
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+.footer .home {
+    text-align: center;
+    float: left;
+    font-size: 1.5rem;
+    color: #5fc0cd;
+    margin: 0.5rem 0 0.5rem 18%;
+}
+.footer .home img {
+    width: 70%;
+}
+.footer .write {
+    margin: 0 15%;
+    float: left;
+    text-align: center;
+}
+.footer .write .round {
+    border-radius: 50%;
+    background: #5fc0cd;
+    width: 60px;
+    height: 60px;
+}
+.footer .write img {
+    width: 50%;
+    padding-top: 1rem;
+}
+.footer .mine img {
+    width: 70%;
+}
+.footer .mine {
+    text-align: center;
+    float: left;
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+@media screen and (max-width: 480px){
+    html {
+        font-size: 40%;
+    }
+}
