@@ -4,101 +4,123 @@ html {
     font-size: 62.5%;
     color: deepskyblue;
 }
+
 * {
     padding: 0;
     margin: 0;
 }
+
 img {
     width: 100%;
 }
+
 body {
     width: 100%;
     height: 100%;
 }
+
 a {
     text-decoration: none;
 }
-p{
+
+p {
     font-size: 3rem;
 }
+
 .header {
     position: relative;
     width: 100%;
     background: #2a394e;
 }
+
 .header h2 {
     padding: 2rem 0 1.5rem 1rem;
     font-size: 2rem;
     font-family: Microsoft YaHei, Serif;
     color: white;
 }
-.header img{
+
+.header img {
     float: right;
     width: 10%;
 }
+
 .main {
-     margin: 5% 6%;
+    margin: 5% 6%;
 }
+
 .main .task_main p {
     padding-left: 1rem;
     padding-bottom: 1rem;
 }
+
 .main .task_main .task {
     float: left;
-    text-align:center;
+    text-align: center;
     margin: 1rem;
 }
+
+.main .task_main .three {
+    overflow: hidden;
+    width: 320px;
+    height: 128px;
+    float: left;
+}
+
 .main .task_main .task img {
     float: left;
     width: auto;
 }
+
 .clear {
-    clear:both;
+    clear: both;
 }
+
 .main .task_main .task p {
     font-size: 2rem;
     padding: 0;
 }
+
 .xiuzhenyuan {
     margin: 2rem 0;
 }
+
 .xiuzhenyuan button {
     background: #29b078;
     width: auto;
     padding: 1.5rem;
     border-radius: 10px;
 }
+
 .xiuzhenyuan a {
     font-size: 2rem;
     color: #ffffff;
 }
+
 .ribao {
     width: auto;
 }
+
 .ribao img {
     width: auto;
 }
+
 .ribao .gaoxiao {
     float: left;
     width: auto;
 }
+
 .ribao .baozou {
     float: right;
     margin: 2rem;
 }
+
 .ribao .baozou img {
     width: 8rem;
 }
 
-
-@media screen and (max-width: 480px){
+@media screen and (max-width: 480px) {
     html {
         font-size: 40%;
     }
 }
-
-
-
-
-
-

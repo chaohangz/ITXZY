@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="task6-2.css">
+    <title>投票页</title>
+</head>
+
+<body>
+    <div class="father">
+        <div class="header">
+            <img class="menu" src="task6-2/task6-2_03.png" />
+            <p>投票</p>
+            <img class="close" src="task6-2/task6-2_06.png" />
+        </div>
+        <div class="main">
+            <div class="main-top">
+                <p class="text1">发言讨论结束，大家请投票</p>
+                <!--播放音频-->
+                <audio src="task6-2/audio.mp3" controls="controls" preload id="music" hidden>
+                </audio>
+                <button id="a" onclick="a();">
+                    <div class="round">
+                        <div class="triangle"></div>
+                    </div>
+                </button>
+                <script>
+                function a() {
+                    var audio = document.getElementById('music');
+                    if (audio.paused) {
+                        audio.play();
+                    } else {
+                        audio.pause();
+                    }
+                }
+                </script>
+            </div>
+            <div class="triangle-down"></div>
+            <p class="text2">点击投票数最多人的头像</p>
+        </div>
+        <div class="main_bottom">
+            <div class="box">
+                <ul class="box_top">
+                    <li class="role">水民</li>
+                    <li class="number">1号</li>
+                </ul>
+                <ul class="sprite">
+                    <li class="one"></li>
+                    <li class="two"></li>
+                    <li class="three"></li>
+                    <li class="four"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="box_top">
+                    <li class="role">水民</li>
+                    <li class="number">2号</li>
+                </ul>
+                <ul class="sprite">
+                    <li class="one"></li>
+                    <li class="two"></li>
+                    <li class="three"></li>
+                    <li class="four"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="box_top">
+                    <li class="role">警察</li>
+                    <li class="number">3号</li>
+                </ul>
+                <ul class="sprite">
+                    <li class="one"></li>
+                    <li class="two"></li>
+                    <li class="three"></li>
+                    <li class="four"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="box_top">
+                    <li class="role">法官</li>
+                    <li class="number">4号</li>
+                </ul>
+                <ul class="sprite">
+                    <li class="one"></li>
+                    <li class="two"></li>
+                    <li class="three"></li>
+                    <li class="four"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="box_top">
+                    <li class="role">狙击手</li>
+                    <li class="number">5号</li>
+                </ul>
+                <ul class="sprite">
+                    <li class="one"></li>
+                    <li class="two"></li>
+                    <li class="three"></li>
+                    <li class="four"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="box_top">
+                    <li class="role">医生</li>
+                    <li class="number">6号</li>
+                </ul>
+                <ul class="sprite">
+                    <li class="one"></li>
+                    <li class="two"></li>
+                    <li class="three"></li>
+                    <li class="four"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="box_top">
+                    <li class="role">杀手</li>
+                    <li class="number">7号</li>
+                </ul>
+                <ul class="sprite">
+                    <li class="one"></li>
+                    <li class="two"></li>
+                    <li class="three"></li>
+                    <li class="four"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="box_top">
+                    <li class="role">水民</li>
+                    <li class="number">8号</li>
+                </ul>
+                <ul class="sprite">
+                    <li class="one"></li>
+                    <li class="two"></li>
+                    <li class="three"></li>
+                    <li class="four"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="box_top">
+                    <li class="role">水民</li>
+                    <li class="number">9号</li>
+                </ul>
+                <ul class="sprite">
+                    <li class="one"></li>
+                    <li class="two"></li>
+                    <li class="three"></li>
+                    <li class="four"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="box_top">
+                    <li class="role">水民</li>
+                    <li class="number">10号</li>
+                </ul>
+                <ul class="sprite">
+                    <li class="one"></li>
+                    <li class="two"></li>
+                    <li class="three"></li>
+                    <li class="four"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="box_top">
+                    <li class="role">水民</li>
+                    <li class="number">11号</li>
+                </ul>
+                <ul class="sprite">
+                    <li class="one"></li>
+                    <li class="two"></li>
+                    <li class="three"></li>
+                    <li class="four"></li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="box_top">
+                    <li class="role">水民</li>
+                    <li class="number">12号</li>
+                </ul>
+                <ul class="sprite">
+                    <li class="one"></li>
+                    <li class="two"></li>
+                    <li class="three"></li>
+                    <li class="four"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <a href="task6-3.html">
+                <button type="submit">投死</button>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

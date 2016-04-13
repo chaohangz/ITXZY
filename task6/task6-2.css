@@ -1,0 +1,201 @@
+@charset "utf-8";
+html {
+    font-family: Microsoft YaHei UI Serif;
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+.father {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    background: #29bde0;
+}
+
+.header {
+    text-align: center;
+    width: 100%;
+}
+
+.header .menu {
+    float: left;
+    padding: 1rem;
+    width: 5%;
+}
+
+.header p {
+    display: inline-block;
+    font-size: 3rem;
+    color: white;
+    padding: 1rem 0;
+}
+
+.header .close {
+    float: right;
+    padding: 1rem;
+    width: 4%;
+}
+
+.main {
+    overflow: hidden;
+}
+
+.main-top {
+    position: relative;
+    background: #b9e9f5;
+}
+
+.main-top .text1 {
+    display: inline-block;
+    font-size: 2rem;
+    color: #464646;
+    font-weight: bold;
+    padding: 1.5rem 3rem;
+}
+
+.main-top #a {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    background: rgba(225, 225, 225, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.main-top .round {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #fbb435;
+}
+
+.main-top .triangle {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 0;
+    height: 0;
+    border-top: 16px solid transparent;
+    border-left: 26px solid white;
+    border-bottom: 16px solid transparent;
+}
+
+.main .triangle-down {
+    margin-left: 5%;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #b9e9f5;
+    border-left: 10px solid #29bde0;
+    border-right: 10px solid #29bde0;
+}
+
+.main .text2 {
+    width: 100%;
+    background: #29bde0;
+    font-size: 2rem;
+    color: white;
+    padding: 1rem 4rem 2rem 4rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.main_bottom {
+    overflow: hidden;
+    background: #29bde0;
+}
+
+.main_bottom .box {
+    float: left;
+    width: 22%;
+    height: 30%;
+    margin: 1% 4% 2% 6%;
+}
+
+.main_bottom .box_top {
+    /*margin: 5% 4% 5% 6%;*/
+    width: 96%;
+    border: 3px solid white;
+    background: #f5c97b;
+}
+
+.main_bottom .role {
+    text-align: center;
+    padding: 28% 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.main_bottom .number {
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background: #83b09a;
+}
+
+.sprite {
+    margin-top: 1.5rem;
+    width: 100%;
+    opacity: 0;
+}
+
+.sprite li {
+    background-image: url(task6-2/sprite.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.sprite .one {
+    background-position: 0 0;
+}
+
+.sprite .two {
+    background-position: -35px 0;
+}
+
+.sprite .three {
+    background-position: -70px 0;
+}
+
+.sprite .four {
+    background-position: -105px 0;
+}
+
+.box:hover .sprite {
+    opacity: 1;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    max-width: 640px;
+    width: 100%;
+    background: #29bde0;
+    border-top: 1px solid white;
+}
+
+.footer button {
+    background: #fbb435;
+    font-size: 3.5rem;
+    color: white;
+    width: 74%;
+    padding: 1rem 0;
+    margin: 2rem 13%;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+}

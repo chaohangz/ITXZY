@@ -1,0 +1,139 @@
+@charset "utf-8";
+html {
+    font-family: HiraginoSansGB W3 Serif;
+    font-size: 62.5%;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+img {
+    width: 100%;
+}
+.father {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    background: #29bde0;
+}
+.header .hamburger {
+    padding: 1.5rem 2rem;
+}
+.menu-icon {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    text-indent: -2016px;
+}
+.border-icon {
+    height: 24px;
+    border-top: 5px solid #ffffff;
+    border-bottom: 5px solid #ffffff;
+}
+.border-icon::before {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: 0;
+    width: 100%;
+    border-top: 5px solid #ffffff;
+}
+.main {
+    text-align: center;
+    width: 100%;
+    background: #f0f0f0;
+}
+.main .last {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin: 2rem 0;
+    width: 90%;
+    background: white;
+    border: 1px solid #c9c9c9;
+}
+.main .last p {
+    padding: 3rem 0;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #9a9a9a;
+}
+.main .last img {
+    position: absolute;
+    width: 4%;
+    top: 3.2rem;
+    left: 90%;
+}
+.main .main-middle {
+    display: inline-block;
+    margin-bottom: 3rem;
+    width: 90%;
+    border: 1px solid #c9c9c9;
+    background: white;
+}
+.main-middle p {
+    padding: 2rem 0;
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #fbb435;
+}
+.main-middle .three-button {
+    position: relative;
+    margin-top: 2rem;
+}
+.main-middle button {
+    background: #69d1e9;
+    padding: 2.5rem 28%;
+    font-size: 3rem;
+    color: white;
+}
+.main-middle .explanation {
+    font-size: 2rem;
+    color: #787878;
+    padding: 1.5rem 0;
+}
+.main-middle .triangle {
+    position: absolute;
+    top: 40%;
+    right: 1%;
+    width: 0;
+    height: 0;
+    border-top: 2rem solid white;
+    border-left: 2rem solid #fbb435;
+    border-bottom: 2rem solid white;
+}
+.footer {
+    height: 2rem;
+    width: 6rem;
+    margin: 2% auto;
+}
+.footer .circle {
+    float: left;
+    width: 1rem;
+    height: 1rem;
+    margin: 1%;
+    background: #f0f0f0;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border: 1px rgba(225, 225, 225, 0.5) solid;
+}
+.footer .circle:hover {
+    background: #69d1e9;
+}
+
+@media screen and (max-width: 480px){
+    html {
+        font-size: 40%;
+    }
+}
+
+
+
+
+
+
+
