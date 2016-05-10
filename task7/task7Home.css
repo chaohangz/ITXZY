@@ -1,0 +1,277 @@
+@charset "utf-8";
+html {
+	font-family: Microsoft YaHei, serif; 
+	font-size: 62.5%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+.father {
+	min-width: 1349px;
+	background: #fafafa;
+}
+
+.main .carousel_warp {
+	width:100%;
+	min-width: 1349px;
+    min-height: 425px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.carousel_warp .carousel {
+	position: absolute;
+	transition: all 0.5s ease-in 0s;//轮播动画
+}
+.carousel div {
+	float:left;
+	width: 25%;
+	text-align: center;
+}
+.button {
+    text-align: center;
+    border: none;
+}
+
+.pre {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 27px;
+    height: 46px;
+    background: url("task7Home/next_2.png") no-repeat; /*没有可以显示，有了显示不出来。但是师姐有这个。*/
+}
+
+.next {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    width: 27px;
+    height: 46px;
+    background: url("task7Home/next_1.png") no-repeat;
+}
+
+.main_middle_one {
+	overflow: hidden;
+	width:100%;
+	padding-top: 100px;
+}
+.main_middle_left {
+	overflow:hidden;
+	width: 70%;
+	border-right: 2px #dedede dotted;
+	display: inline-block;
+}
+.main_middle_left .block {
+	width: 200px;
+	float: left;
+	padding-left: 90px;
+}
+.top1 {
+	width: 50px;
+	padding: 10px 38.5%;	
+}
+.top2 {
+	width: 62px;
+	padding: 11px 35%;
+}
+.top3 {
+	width: 58px;
+	padding: 10px 35%;
+}
+.middle {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: black;
+	padding-top: 20px;
+	padding-bottom: 30px;
+
+}
+.bottom {
+	font-size: 1.5rem;
+	color: #999;
+}
+.main_middle_right {
+	overflow: hidden;  /*重要，还是没有准确理解*/
+	display: inline-block;
+	margin: 0 0  30px 30px;
+}
+.main_middle_right img {
+	width: 20px;
+}
+.main_middle_right span {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #26a26f;
+}
+.main_middle_right p {
+	font-size: 1.5rem;
+	color: #999;
+	padding: 10px 0;
+}
+
+.main_middle_two {
+	margin-top: 120px;
+}
+h2 {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.main_middle_two .process {
+	padding-left: 8%;
+	margin-top: 60px;
+}
+.process .process_block {
+	display: inline-block;
+	position: relative;
+	width: 240px;
+	height: 82px;
+	padding-right: 40px;
+}
+.round {
+	position: relative;
+	display: inline-block;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	background: #ffffff;
+	width: 70px;
+	height: 70px;
+	border: 1px #f3f3f3 solid;
+}
+.round p {
+	position: absolute;
+	top: 35%;
+	right: 43%;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #29b078;
+}
+.process_block .wenzi {
+	position: absolute;
+	top: 15px;
+	left: 90px;
+	width: 140px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #a1a1a1;
+	line-height: 25px;
+}
+.process_block .wenzi_danhang {
+	position: absolute;
+	top: 25px;
+	left: 90px;
+	width: 140px;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #a1a1a1;
+	line-height: 25px;
+}
+.process_block .arrow {
+	position: absolute;
+	top: 23px;
+	left: 250px;
+	width: 30px;
+}
+
+.main_middle_three {
+	overflow:hidden;
+	margin-top: 120px;
+}
+.main_middle_three .show {
+	padding-left: 75px;
+	margin-top: 60px;
+}
+.show .box {
+	display: inline-block;
+	overflow: hidden;
+	width: 240px;
+	background: #fff;
+	border: 1px #eeeded solid;
+	margin-left: 40px;
+}	
+.box .photo {
+	width: 110px;
+	padding: 20px 65px;
+}
+.box .name {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 20px 0;
+}
+.box .synopsis {
+	font-size: 1.5rem;
+	color: #999;
+	line-height: 30px;
+	padding: 20px;
+}
+.main_middle_three .more {
+	width: 80px;
+	padding: 40px 47%;
+}
+.more .circle {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	background: #eeeded;
+	border: 1px #eeeded solid;
+}
+.circle:hover {
+	background: #29b078;
+}
+.main_middle_four {
+	margin-top: 80px;
+}
+.main_middle_four .logo {
+	background: #fff;
+	margin: 40px 110px;
+	padding: 50px 0;
+	border: 1px #eeeded solid;
+}	
+.logo li {
+	display: inline-block;
+	text-align: center;
+	width: 220px;
+}
+.logo li img {
+	width: auto;
+}
+.main_middle_five {
+	margin-top: 120px;
+}
+.main_middle_five .box2 {
+	overflow:hidden;
+	padding-top: 40px;
+	margin: 0 110px;
+}
+/*.clear {
+	clear: both;
+}*/
+.main_middle_five li {
+	margin-left:60px;
+	padding-bottom: 20px;
+	float: left;
+	color: #a1a1a1;
+}
+.main_middle_five li a {
+	font-size: 1rem;
+	color: #a1a1a1;
+}
+.
+
+
+
+

@@ -1,0 +1,114 @@
+@charset "utf-8";
+html {
+	font-family: "Microsoft YaHei", "serif"; 
+	font-size: 62.5%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+a {
+	text-decoration: none;
+}
+.clear {
+	clear:both;
+}
+.header .top {
+	overflow:hidden;
+	width: 100%;
+	background: #fff;
+	padding: 8px 0;
+}
+.top .phone {
+	float:left;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #42b683;
+	padding: 5px 0 0 130px;
+}
+.top .img {
+	float: right;
+	padding-right: 120px;
+}
+.top img{
+	width: 30px;
+	padding-right: 5px;
+}
+.header .navbar {
+	padding: 30px 0;
+	width: 100%;
+	background: #29b078;
+}
+.navbar .navbar_nav {
+	padding-left: 62%;
+}
+.navbar .navbar_nav a {
+	padding: 27px 0;
+	margin-left: 40px;
+	text-decoration:none;
+	font-size: 2rem;
+	color: white;
+}
+.navbar .navbar_nav a:hover {
+	border-bottom: 6px white solid;
+}
+
+.footer {
+	background: #26a26f;
+}
+.footer_top {
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.footer_top p {
+	font-size: 2rem;
+	color: white;
+}
+.footer_top a {
+	font-size: 1.2rem;
+	color: white;
+}
+.footer_top_left {
+	float: left;
+	padding: 30px 120px 0 60px;
+}
+.footer_top_left .guanyu {
+	padding-top: 60px;
+}
+.footer_top_middle {
+	float: left;
+	padding: 30px 120px 0 60px;
+}
+.footer_top_middle .wangzhan {
+	width: 200px;
+	padding: 40px 0;
+}
+.wangzhan a {
+	padding-right: 20px;
+}
+.wangzhan_top {
+	padding-bottom: 20px;
+}
+.footer_top_right {
+	float: right;
+	padding: 30px 160px 0 0;
+}
+.footer_top_right img {
+	width: 100px;
+	padding: 10px;
+}
+.footer_bottom {
+	border-top: 1px #32c086 solid;
+}
+.footer_bottom p {
+	text-align: center;
+	color: white;
+	font-size: 1rem;
+	padding: 9px 0;
+}
+

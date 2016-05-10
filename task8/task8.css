@@ -1,0 +1,245 @@
+@charset "utf-8";
+html {
+    font-family: "Microsoft YaHei", serif;
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    height: 1px;
+    background: #d0d6d9;
+    border: hidden;
+    /*关键*/
+}
+
+.father {
+    background: #fafafa;
+    min-width: 1349px;
+}
+
+.main {
+    margin: 0 80px 160px 80px;
+}
+
+.main .homepage {
+    padding: 30px 0;
+}
+
+.homepage .one {
+    font-size: 1.8rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.homepage .one:hover {
+    color: #29b078;
+}
+
+.homepage .two {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.homepage .three {
+    font-size: 1.8rem;
+    color: #29b178;
+    font-weight: 500;
+}
+
+.main .direction {
+    padding: 30px 0;
+    border-bottom: 1px #edf1f2 solid;
+}
+
+.fangxiang {
+    float: left;
+    font-size: 1.5rem;
+    color: #999;
+}
+
+.direction .first {
+    color: white;
+    background: #29b078;
+}
+
+.direction li {
+    float: left;
+    margin: 0 30px;
+    font-size: 1.5rem;
+}
+
+.main .content {
+    overflow: hidden;
+}
+
+.main .content .title {
+    padding: 30px 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.content .box {
+    position: relative;
+    overflow: hidden;
+    float: left;
+    width: 380px;
+    background: #fff;
+    margin: 45px 14px 0 0;
+    border: 1px #eeeded solid;
+}
+
+.line1 {
+    overflow: hidden;
+    padding: 17px 10px;
+}
+
+.line1 img {
+    padding-right: 8px;
+    float: left;
+    width: 139px;
+}
+
+.line1 h3 {
+    padding: 8px 0;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.line1 p {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.line2 li {
+    display: inline-block;
+    width: 179px;
+    padding: 10px 0 10px 8px;
+    border-top: 1px #edf1f2 solid;
+    font-size: 1.3rem;
+    color: #999;
+}
+
+.line2 .left {
+    border-right: 1px #edf1f2 solid;
+}
+
+.line2 img {
+    display: inline-block;
+    width: 16px;
+}
+
+.line2 .red_writing {
+    display: inline-block;
+    color: red;
+}
+
+.line3 {
+    overflow: hidden;
+}
+
+.line3 .left {
+    float: left;
+    padding: 48px 50px;
+    font-size: 1.3rem;
+    color: #999;
+    border: 1px #edf1f2 solid;
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.line3 .right {
+    float: left;
+    padding: 8px 0 12px 20px;
+    font-size: 1.3rem;
+    color: #5d5d5d;
+    border-top: 1px #edf1f2 solid;
+}
+
+.line3 .right .money {
+    display: inline-block;
+    padding-left: 98px;
+}
+
+.line4 {
+    padding: 8px 0 8px 8px;
+    font-size: 1.7rem;
+    font-weight: blod;
+    color: #333;
+    border-top: 1px #edf1f2 solid;
+}
+
+.line4 .red_writing2 {
+    display: inline-block;
+    color: red;
+}
+
+.line5 {
+    font-size: 1rem;
+    color: #999;
+    padding: 12px 0 12px 8px;
+    border-top: 1px #edf1f2 solid;
+}
+
+.behind {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    color: white;
+    /*display: none;*/
+    /*visibility: hidden;*/
+    /* 虽然师姐的方法比较华丽，但我还是坚持用我自己查到的方法，就是这么任性。*/
+    /*还是改了，好看一点QAQ*/
+    transform: rotateY(-180deg);
+    -webkit-transform: rotateY(-180deg);
+    /* Chrome and Safari */
+    -moz-transform: rotateY(-180deg);
+    /* Firefox */
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    /* Chrome 和 Safari */
+    -moz-backface-visibility: hidden;
+    /* Firefox */
+    -ms-backface-visibility: hidden;
+    /* Internet Explorer */
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.behind h3 {
+    padding: 50px 0 30px 0;
+    text-align: center;
+}
+
+.behind p {
+    padding: 0 50px;
+    text-indent: 20px;
+    line-height: 25px;
+}
+
+.box:hover .behind {
+    /*display: block;*/
+    /*visibility: visible;*/
+    transform: rotateY(0deg);
+    transition: 1s;
+}
+
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+}
