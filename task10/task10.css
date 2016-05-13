@@ -1,0 +1,296 @@
+@charset "utf-8";
+html {
+	font-family: "Microsoft YaHei", serif;
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 14px;
+	line-height: 1.428571429;
+	color: #333333;
+	background-color: #fafafa;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	display: inline-block;
+	height: auto;
+	max-width: 100%;
+}
+
+/*.main .carousel_warp {
+	width:100%;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}*/
+/*.carousel_warp .carousel {
+	position: absolute;
+	transition: all 0.5s ease-in 0s;//轮播动画
+}*/
+
+/*.pre {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    width: 27px;
+    height: 46px;
+    background: url("task7Home/next_2.png") no-repeat; /*没有可以显示，有了显示不出来。但是师姐有这个。
+}*/
+
+/*.next {
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    width: 27px;
+    height: 46px;
+    background: url("task7Home/next_1.png") no-repeat;
+}*/
+
+/*优势begin*/
+.main_middle_one {
+	width:100%;
+    margin-top: 120px;
+}
+
+.main_middle_one .block1,
+.main_middle_one .block2,
+.main_middle_one .block3,
+.main_middle_one .block_right {
+    vertical-align: top;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.main_middle_one .block2 {
+    margin-bottom: 4px;
+}
+
+.main_middle_one .block_right {
+    padding-top: 40px;
+    border-left: 1px dashed #999;
+}
+@media screen and (max-width: 767px) {
+    .main_middle_one .block_right {
+        border: none;
+    }
+}
+.top1 {
+	width: 50px;
+}
+.top2 {
+	width: 60px;
+}
+.top3 {
+	width: 60px;
+}
+.middle {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: black;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.bottom {
+	font-size: 1.5rem;
+	color: #999;
+}
+
+.block_right img {
+	width: 20px;
+}
+.block_right span {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #26a26f;
+}
+.block_right p {
+	font-size: 1.5rem;
+	color: #999;
+	padding: 10px 0;
+}
+/*优势ending*/
+
+/*步骤(process)begin*/
+.main_middle_two {
+    overflow: hidden;
+	margin-top: 120px;
+}
+h2 {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.main_middle_two .process {
+    overflow: hidden;;
+	padding-left: 8%;
+	margin-top: 60px;
+}
+.process .process_block {
+	display: inline-block;
+	/*position: relative;
+	width: 240px;
+	height: 82px;*/
+	padding-right: 10px;
+    margin-bottom: 20px;
+}
+.process_block .round {
+    text-align: center;
+	/*position: relative;*/
+	display: inline-block;
+    vertical-align: middle;
+    line-height: 70px;  /*为什么使用行高之后数字居中？*/
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+	background: #ffffff;
+	width: 70px;
+	height: 70px;
+	border: 1px #f3f3f3 solid;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #29b078;
+}
+
+.process_block .wenzi {
+	/*position: absolute;
+	top: 15px;
+	left: 90px;*/
+    display: inline-block;
+    vertical-align: middle;
+	width: 135px;
+	font-size: 1.3rem;
+	font-weight: bold;
+	color: #a1a1a1;
+	line-height: 25px;
+}
+
+.process_block .arrow {
+	/*position: absolute;
+	top: 23px;
+	left: 250px;*/
+    display: inline-block;
+    vertical-align: middle;
+	width: 30px;
+}
+/*步骤(process)ending*/
+
+/*优秀学员begin*/
+.main_middle_three {
+	overflow:hidden;
+	margin-top: 120px;
+}
+.main_middle_three .show {
+    overflow: hidden;
+	margin-top: 60px;
+}
+.show .box_two {
+    margin-bottom: 1px;
+}
+.show .box {
+	overflow: hidden;
+    text-align: center;
+	background: #fff;
+	border: 1px #eeeded solid;
+}
+
+@media screen and (max-width: 1199px){
+    .show .box {
+        margin: 2rem;
+    }
+}
+.box .photo {
+    width: 100px;
+    margin: 2rem 0;
+}
+.box .name {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 20px 0;
+}
+.box .synopsis {
+	font-size: 1.5rem;
+	color: #999;
+	line-height: 30px;
+	padding: 20px;
+}
+.more {
+    text-align: center;
+	width: 80px;
+    margin: 2% auto;
+}
+.more .circle {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	        border-radius: 50%;
+	-webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+	background: #eeeded;
+	border: 1px #eeeded solid;
+}
+.circle:hover {
+	background: #29b078;
+}
+/*优秀学员ending*/
+
+/*合作企业 begin*/
+.main_middle_four {
+	margin-top: 80px;
+}
+.main_middle_four .logo {
+    overflow: hidden;
+	background: #fff;
+	margin: 40px 80px;
+	padding: 50px 0;
+	border: 1px #eeeded solid;
+}
+@media screen and (max-width: 797px){
+    .main_middle_four .logo {
+        margin: 40px 20px;
+        padding: 20px 0;
+    }
+}
+.main_middle_four .logo li {
+	display: inline-block;
+	text-align: center;
+}
+.main_middle_four .logo li img {
+	width: auto;
+}
+/*合作企业ending*/
+
+/*友情链接begin*/
+.main_middle_five {
+	margin-top: 120px;
+}
+.main_middle_five .box2 {
+	overflow:hidden;
+	padding-top: 40px;
+	margin: 0 40px;
+}
+/*.clear {
+	clear: both;
+}*/
+.main_middle_five li {
+	margin-left:60px;
+	padding-bottom: 20px;
+	float: left;
+	color: #a1a1a1;
+}
+.main_middle_five li a {
+	font-size: 1rem;
+	color: #a1a1a1;
+}
+/*友情链接ending*/
+
+
+
+

@@ -1,0 +1,115 @@
+.father {
+	background: #fafafa;
+	min-width: 1349px;
+}
+.banner {
+    width: 100%;
+}
+
+.main .homepage {
+	padding-top: 30px;
+}
+
+.homepage .one {
+	font-size: 1.8rem;
+	color: #333;
+	font-weight: 500;
+}
+.homepage .one:hover {
+	color: #29b078;
+}
+.homepage .two {
+	font-size: 1.8rem;
+	color: #333;
+}
+.homepage .three {
+	font-size: 1.8rem;
+	color: #29b178;
+	font-weight: 500;
+}
+.main .left {
+	margin-top: 40px;
+	margin-right: 45px;
+	text-align: center;
+	background: #fff;
+	border: 1px #e6e6e6 solid;
+	box-shadow: 0 2px 5px #ddd;
+}
+.main .left .top {
+	padding: 20px 0;
+	font-size: 2rem;
+	font-weight: bold;
+	color: #333;
+}
+.main .left ul {
+	border-top: 1px #e6e6e6 solid;
+	list-style: none;
+}
+.main .left li {
+	overflow: hidden;
+	padding: 20px 0;
+}
+.main .left a:hover {
+	color: #f9a372;
+}	
+.main .left li a,
+.main .left .tudou {
+	padding-left: 35%;
+	float: left;
+	font-size: 1.5rem;
+	color: #29b178;
+}
+
+.main .left a .round,
+.main .left .tudou .round {
+	margin: 5px 15px 0 0;
+	float: left;
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+	border: 1px #ff640c solid;
+}
+.main .left .tudou {
+	color: #f9a372;
+}
+.main .left .tudou .round {
+	background: #f9a372;
+}
+.main .right_tudou {
+	margin-top: 40px;
+	margin-left:45px;
+	background: #fff;
+	border: 1px #e6e6e6 solid;
+	box-shadow: 0 2px 5px #ddd; 
+}
+.right_tudou .top {
+	padding: 40px 0;
+	padding-right: 6px;
+	border-bottom: 1px #e6e6e6 solid;
+}
+.right_tudou .top img {
+	float: left;
+	padding: 38px 40px;
+	width: 200px;
+}
+.right_tudou p {
+	font-size: 1.5rem;
+	color: #999;
+	line-height: 30px;
+}
+
+.right_tudou .bottom p {
+	text-indent: 20px;
+	padding: 30px 40px 20px 40px;
+}
+.right_tudou .bottom .last {
+	padding-bottom: 80px;
+}
+
+@media screen and (max-width: 991px) {
+	.main .left {
+		margin-right: 0;
+	}
+	.main .right_tudou {
+	margin-left: 0;
+}
