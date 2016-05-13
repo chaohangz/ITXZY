@@ -1,0 +1,150 @@
+@charset "utf-8";
+html {
+	font-family: "Microsoft YaHei", "serif"; 
+	font-size: 62.5%;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+a {
+	text-decoration: none;
+}
+
+a:link {
+    color: #fff;
+}
+a:visited {
+    color: #fff;
+}
+a:hover {
+    color: #fff;
+}
+
+.top {
+	padding: 8px 0;
+}
+.top .phone {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #42b683;
+}
+
+.top img{
+	width: 30px;
+	padding-right: 5px;
+}
+nav {
+	background: #29b078;
+}
+
+.logo h1 {
+    font-size: 3.6rem;
+    color: white;
+}
+.logo h6 {
+    font-size: 1rem;
+    color: white;
+}
+
+.logo button span {
+    background: white;
+    padding-top: 5px;
+}
+
+.nav .white {
+    border-bottom: 5px solid #fff;
+}
+.nav .green {
+    border-bottom: 5px solid #1db176;
+}
+.nav li {
+    padding: 20px 20px ;
+    cursor: pointer;
+}
+
+.nav span {
+    font-size: 2rem;
+    color: white;
+}
+.nav li:hover {
+    border-bottom: 5px solid #fff;
+}
+.nav li a:hover {
+    background-color: #1db176;
+}
+
+
+
+.footer {
+    width: 100%;
+	background: #26a26f;
+}
+.footer_top {
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.footer_top p {
+	font-size: 2rem;
+	color: white;
+}
+.footer_top a {
+	font-size: 1.2rem;
+	color: white;
+}
+.footer_top_left {
+	padding: 30px 0 0 60px;
+}
+.footer_top_left .guanyu {
+	padding-top: 60px;
+}
+.footer_top_middle {
+	padding: 30px 0 0 60px;
+}
+.footer_top_middle .wangzhan {
+	width: 200px;
+	padding: 40px 0;
+}
+.wangzhan a {
+	padding-right: 20px;
+}
+.wangzhan_top {
+	padding-bottom: 20px;
+}
+.footer_top_right {
+	padding: 30px 0 0 60px;
+}
+.footer_top_right img {
+	width: 100px;
+	padding: 10px;
+}
+.footer_bottom {
+	border-top: 1px #32c086 solid;
+}
+.footer_bottom p {
+	text-align: center;
+	color: white;
+	font-size: 1rem;
+	padding: 9px 0;
+}
+@media screen and (max-width: 1220px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 52.5%;
+    }
+}
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 42.5%;
+    }
+}
+
